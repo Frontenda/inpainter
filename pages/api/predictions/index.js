@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   const body = JSON.stringify({
     // Pinned to a specific version of Stable Diffusion, fetched from:
     // https://replicate.com/stability-ai/stable-diffusion
-    version: "be04660a5b93ef2aff61e3668dedb4cbeb14941e62a3fd5998364a32d613e35e",
+    version: "c5537e510ca1323c525a61ce462a32a4c5e9bdbb0d75a577fa07f06aa0b969e8",
     input: req.body,
   });
 
